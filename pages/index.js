@@ -3,7 +3,6 @@ import Chart from "chart.js/auto";
 import jsonRevenue from './shopifyDates.json';
 import jsonCost from './printifyCost.json'
 import jsonProfit from './profitDates.json'
-import {PythonShell} from 'python-shell';
 
 async function printYo() {
   console.log("yo");
