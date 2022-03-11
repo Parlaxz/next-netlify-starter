@@ -6,11 +6,7 @@ import jsonProfit from './profitDates.json'
 import {PythonShell} from 'python-shell';
 
 async function printYo() {
-  var PythonShell = require('python-shell');
-  PythonShell.run('..\\scripts\\moshiCalc\\main.py', null, function (err) {
-    if (err) throw err;
-    console.log('finished');
-  });
+  console.log("yo");
 }
 
 const numDays = 30;
